@@ -57,27 +57,37 @@ Install Terraform on Ubuntu:
 
 Install Terraform on RHEL:
 
-  Install aws cli
-  ================
+  Install aws cli:
+
   sudo yum update -y
+  
   sudo yum install curl unzip wget -y  
+  
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  
   unzip awscliv2.zip
+  
   sudo ./aws/install
 
-  Install Terraform
-  ===================
+  Install Terraform:
+
   a) Download binary
-  ++++++++++++++++++++
+
   sudo yum update -y
+  
   sudo yum install wget unzip -y
+  
   sudo wget https://releases.hashicorp.com/terraform/1.5.5/terraform_1.5.5_linux_amd64.zip
+  
   sudo unzip terraform_1.5.5_linux_amd64.zip -d /usr/local/bin
+  
   terraform -v
 
-  b) Install from hashicorp repo
-  ++++++++++++++++++++++++++++++
+  b) Install from hashicorp repo:
+
  sudo yum install -y yum-utils
+ 
  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+ 
  sudo yum -y install terraform
 
