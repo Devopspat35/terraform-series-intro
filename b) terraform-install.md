@@ -11,21 +11,28 @@ b) Installation
     You can download the binary for either MACOS or Windows and install on your system
 
 Links:
-Download Terraform - choose the appropriate OS.
+Download Terraform - choose the appropriate OS:
+
 https://developer.hashicorp.com/terraform/install
 
-Install CLI
+Install CLI:
+
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
 direct download link for aws-cli:
+
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-version.html
 
-Microsoft Visual Studio Code Editor
+Microsoft Visual Studio Code Editor:
+
 https://code.visualstudio.com/download
 
-Hashicorp Terraform Plugin for VS Code
+Hashicorp Terraform Plugin for VS Code:
+
 https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform
 
-AWS CLI Install in macOS
+AWS CLI Install in macOS:
+
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-version.html
 
 
