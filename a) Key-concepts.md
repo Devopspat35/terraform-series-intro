@@ -1,4 +1,7 @@
 Introduction to Terraform
+
+https://github.com/LandmakTechnology/terraform-master-class-series/tree/main/01%20-%20Introduction%20to%20terraform
+
 Key Concepts
 a) Infrastructure as a Code
 
